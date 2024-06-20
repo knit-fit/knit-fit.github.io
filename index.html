@@ -1,7 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Landing Page</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #0D0D34; /* Solid dark blue background */
+        }
+
+        .container {
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo {
+            width: 300px;
+            height: 300px;
+            background: url('logo_white.png') no-repeat center center;
+            background-size: contain;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .linkedin-logo {
+            width: 40px;
+            height: 40px;
+            background: url('linkedin_white.png') no-repeat center center;
+            background-size: contain;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 <body>
-<h1>KnitFit</h1>
-<p>Welcome to the future of garment production.</p>
+    <div class="container">
+        <div class="logo"></div> <!-- Placeholder for the large logo -->
+        <div class="tagline">Reimagining the future of garment production</div>
+        <footer>
+            <div class="footer-content">
+                <a href="https://www.linkedin.com/company/knit-fit/" target="_blank">
+                    <div class="linkedin-logo"></div>
+                </a>
+                <p>&copy; KnitFit 2024</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
